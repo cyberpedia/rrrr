@@ -298,19 +298,30 @@ Social-Searcher is an online platform for searching and monitoring social media 
 - **Shodan**: Finds exposed endpoints and devices with known vulnerabilities (CVE-based) [[2]](https://help.shodan.io/the-basics/vulnerability-search.html).
 - **Maltego**: Maps infrastructure and relationships to uncover associated vulnerabilities [[22]](https://www.maltego.com/solutions/threat-investigations/).
 - **Gephi**: Visualizes links between assets and vulnerable nodes [[39]](https://www.peerspot.com/products/gephi-reviews).
+- **SpiderFoot**: Automated scanning for exposed services, vulnerabilities, and leaks.
+- **Paliscope**: Supports vulnerability and threat actor investigations via multi-source data collection.
+- **Social-Searcher**: Detects public discussion of vulnerabilities and exploits.
+- **OSINT Framework**: Directory for discovering specialized vulnerability and exposure search tools.
 
 ### 2.2 Identifying Threat Actors
 - **Maltego**: Correlates social media, domain, and email data to build threat actor profiles [[26]](https://www.maltego.com/solutions/threat-actor-attribution/).
 - **Gephi**: Reveals key influencers or nodes in cybercriminal networks [[39]](https://www.peerspot.com/products/gephi-reviews).
 - **SpiderFoot**: Automates collection and enrichment of threat actor indicators [[45]](https://www.spiderfoot.net/).
+- **Paliscope**: Advanced profiling and case management capabilities for threat actors.
+- **Social-Searcher**: Monitors social media for threat actor communication or impersonation.
+- **Shodan**: Infrastructure mapping sometimes assists in actor attribution.
+- **OSINT Framework**: Resource hub for actor identification techniques and tools.
 
 ### 2.3 Discovering Cyber Attack Patterns
 - **Gephi**: Detects clusters and attack propagation paths [[42]](https://www.sciencedirect.com/science/article/pii/S1877050919316345).
 - **Maltego**: Maps relationships between incidents, infrastructure, and actors [[22]](https://www.maltego.com/solutions/threat-investigations/).
 - **Shodan**: Identifies attack trends based on device/service exposures [[8]](https://www.sans.org/blog/using-shodan-for-defense/).
+- **SpiderFoot**: Aggregates incident indicators to reveal larger attack patterns.
+- **Paliscope**: Timeline and event analysis for tracking cyber attacks.
+- **Social-Searcher**: Detects emerging campaigns or trends via social chatter.
+- **OSINT Framework**: Catalogs tools for pattern analysis and campaign tracking.
 
 ---
-
 ## 3. Summary Table
 
 | Tool      | Key Capabilities          | Use Cases                       | Pricing                | Advantages                 | Disadvantages            | Reference |
@@ -327,6 +338,19 @@ Social-Searcher is an online platform for searching and monitoring social media 
 | OSINT Framework | Curated OSINT resource directory, topical navigation                         | Tool discovery, workflow building            | Free                            | Comprehensive, easy to use, updated             | No automation, only links                       | [[46]](https://osintframework.com/) |
 | Paliscope    | Automated/manual collection, link analysis, case management, reporting           | Cybercrime, fraud, threat actor investigations | ~$1,000/yr per user (varies)   | Full investigation workflow, reporting, collaboration | Expensive, closed-source, learning curve         | [[47]](https://www.paliscope.com/) |
 | Social-Searcher | Multi-platform real-time social search, sentiment, alerts, analytics         | Brand protection, phishing, social monitoring | Free, $9.49/mo+ (Premium)      | Easy, affordable, real-time monitoring          | Free tier limited, some API/platform restrictions | [[48]](https://www.social-searcher.com/) |
+
+---
+## 3. Comprehensive Summary Table
+
+| Tool             | Key Capabilities                                                                | Use Cases                                     | Pricing                          | Advantages                                       | Disadvantages                                      | Reference                               |
+|------------------|--------------------------------------------------------------------------------|-----------------------------------------------|-----------------------------------|--------------------------------------------------|----------------------------------------------------|------------------------------------------|
+| **Shodan**       | Search for internet-connected devices, ports, banners, CVE mapping, alerts, API | Attack surface mapping, vulnerability discovery| Free, $59/mo+, custom Enterprise | Real-time, global, API, integrates with many tools| Limited depth, false positives, cost, privacy      | [1](https://www.shodan.io/)             |
+| **Maltego**      | Visual link analysis, transforms, graphing, data enrichment, integrations       | Threat actor profiling, infra mapping, OSINT   | Free CE, $999/yr+ Pro/Enterprise | Deep analysis, rich visuals, extensible           | Expensive, learning curve, info overload           | [17](https://www.maltego.com/)          |
+| **Gephi**        | Open-source network visualization and analysis, plugins, large data handling    | Social/infra network analysis, campaign mapping| Free (Open Source)               | Cost-effective, extensible, large network support | Data prep needed, no direct OSINT, learning curve  | [33](https://gephi.org/)                |
+| **SpiderFoot**   | Automated OSINT, 200+ data sources, enrichment, self-hosted/cloud, API          | Threat surface mapping, asset discovery        | Free (self-hosted), $149/yr+ Cloud| Automated, extensible, privacy via self-hosting   | Cloud limits, setup/config complexity              | [45](https://www.spiderfoot.net/)       |
+| **OSINT Framework** | Curated directory of OSINT tools, categorized navigation                     | Tool/resource discovery, workflow building     | Free                             | Comprehensive, easy to use, regularly updated     | No automation, only external links                 | [46](https://osintframework.com/)       |
+| **Paliscope**    | Automated/manual collection, link analysis, case management, reporting          | Cybercrime, fraud, threat actor investigations | ~$1,000/yr/user+ (varies)        | Full investigation workflow, robust reporting     | Expensive, closed-source, learning curve           | [47](https://www.paliscope.com/)        |
+| **Social-Searcher** | Multi-platform real-time social search, sentiment, alerts, analytics         | Brand protection, phishing, social monitoring  | Free, $9.49/mo+ Premium          | Easy, affordable, real-time, multi-platform       | Free tier limited, API/plat. restrictions, basic   | [48](https://www.social-searcher.com/)  |
 
 ---
 
