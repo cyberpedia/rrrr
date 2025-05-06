@@ -167,7 +167,6 @@ Gephi is an open-source network visualization and analysis software, popular for
 | Gephi     | Large-scale network visualization/analysis | Social network and incident mapping | Free (Open Source)     | Extensible, cost-effective | Data prep required, no OSINT integrations, learning curve | [[33]](https://gephi.org/) |
 | SpiderFoot| Automated OSINT, threat mapping | Asset discovery, intelligence automation | Free, $149/yr (Cloud)  | Self-hosted, automated     | Cloud feature limits, complex setup | [[45]](https://www.spiderfoot.net/) |
 
-## 3. Summary Table
 
 | Tool         | Key Capabilities                                                                 | Use Cases                                    | Pricing                         | Advantages                                     | Disadvantages                                   | Reference |
 
