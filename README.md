@@ -167,6 +167,15 @@ Gephi is an open-source network visualization and analysis software, popular for
 | Gephi     | Large-scale network visualization/analysis | Social network and incident mapping | Free (Open Source)     | Extensible, cost-effective | Data prep required, no OSINT integrations, learning curve | [[33]](https://gephi.org/) |
 | SpiderFoot| Automated OSINT, threat mapping | Asset discovery, intelligence automation | Free, $149/yr (Cloud)  | Self-hosted, automated     | Cloud feature limits, complex setup | [[45]](https://www.spiderfoot.net/) |
 
+## 3. Summary Table
+
+| Tool         | Key Capabilities                                                                 | Use Cases                                    | Pricing                         | Advantages                                     | Disadvantages                                   | Reference |
+
+| SpiderFoot   | Automated OSINT, 200+ sources, enrichment, self-hosted/cloud, API                | Threat surface mapping, asset discovery      | Free, $149/yr (Cloud)           | Automated, extensible, privacy via self-hosting | Cloud limits, setup complexity                  | [[45]](https://www.spiderfoot.net/) |
+| OSINT Framework | Curated OSINT resource directory, topical navigation                         | Tool discovery, workflow building            | Free                            | Comprehensive, easy to use, updated             | No automation, only links                       | [[46]](https://osintframework.com/) |
+| Paliscope    | Automated/manual collection, link analysis, case management, reporting           | Cybercrime, fraud, threat actor investigations | ~$1,000/yr per user (varies)   | Full investigation workflow, reporting, collaboration | Expensive, closed-source, learning curve         | [[47]](https://www.paliscope.com/) |
+| Social-Searcher | Multi-platform real-time social search, sentiment, alerts, analytics         | Brand protection, phishing, social monitoring | Free, $9.49/mo+ (Premium)      | Easy, affordable, real-time monitoring          | Free tier limited, some API/platform restrictions | [[48]](https://www.social-searcher.com/) |
+
 ---
 
 ## 4. Conclusion
